@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/spritesheet.png</file>
+        <file>images/character_1.png</file>
+        <file>images/character_2.png</file>
+        <file>images/cursorHand_grey.png</file>
+        <file>images/selected.png</file>
+        <file>images/allowedMove.png</file>
+        <file>images/testpotion.png</file>
+        <file>images/allowedAttack.png</file>
+        <file>items/consumables.txt</file>
+        <file>items/equipment.txt</file>
+        <file>arena/arena_castle.txt</file>
+        <file>arena/arena_city.txt</file>
+        <file>arena/arena_island.txt</file>
+        <file>images/cursorSword_silver.png</file>
+        <file>images/character_3.png</file>
+        <file>images/character_4.png</file>
+        <file>images/enemy_1.png</file>
+        <file>images/enemy_2.png</file>
+        <file>images/enemy_3.png</file>
+        <file>images/enemy_4.png</file>
+        <file>images/consumable_meal.png</file>
+        <file>images/consumable_potion_1.png</file>
+        <file>images/consumable_potion_2.png</file>
+        <file>images/consumable_potion_3.png</file>
+        <file>images/equip_armor.png</file>
+        <file>images/equip_melee.png</file>
+        <file>images/equip_ranged.png</file>
+    </qresource>
+</RCC>

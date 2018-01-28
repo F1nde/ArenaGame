@@ -1,0 +1,19 @@
+Dagger,melee,0,0,0,1,0,0,2,2
+Rusty Sword,melee,0,0,0,1,1,0,0,0
+Shortsword,melee,0,0,0,2,1,0,0,0
+Longsword,melee,0,0,0,4,0,1,0,0
+Battleaxe,melee,0,0,0,6,0,1,0,0
+Mighty Katana,melee,0,0,0,10,0,1,0,0
+Broken Bow,ranged,0,0,0,2,0,1,0,0
+Lucky Bow,ranged,0,0,0,1,5,2,0,0
+Wooden Bow,ranged,0,0,0,2,0,5,0,0
+Steel Bow,ranged,0,0,0,4,0,6,0,0
+Crossbow,ranged,0,0,0,5,0,5,0,0
+Cloth Armor,armor,0,0,3,0,0,0,0,0
+Leather Armor,armor,0,0,5,0,0,0,0,0
+Steel Armor,armor,0,0,7,0,0,0,0,0
+Platinum Armor,armor,0,0,9,0,0,0,0,0
+Mythril Armor,armor,0,0,11,0,0,0,0,0
+Molten Armor,armor,0,0,15,0,0,0,0,0
+Helm of Lenses,armor,0,0,4,0,0,3,0,0
+Divine Harness,armor,0,5,20,5,5,5,5,5

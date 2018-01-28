@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShopDialog</class>
+ <widget class="QDialog" name="ShopDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>833</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>781</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="team_tab">
+    <attribute name="title">
+     <string>Team</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Team Management</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buyCharacter">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>50</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Buy random Guy</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="costOfNewChar">
+     <property name="geometry">
+      <rect>
+       <x>465</x>
+       <y>30</y>
+       <width>121</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cost: 1000 Goldy Coins</string>
+     </property>
+    </widget>
+    <widget class="EntityInfoView" name="entityInfoViewShop">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>230</y>
+       <width>451</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>451</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <widget class="QLabel" name="pictureValue">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>   Pic of Jäbä</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Health">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Health:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Armor">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Armor:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Attack">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>160</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Attack:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Luck_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Luck:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Range_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>200</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Range:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Movement_2">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>110</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>MovementPoints:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Speed_2">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>130</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Speed:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="armorValue">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="attackValue">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>160</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="luckValue">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>180</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="rangeValue">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="movementValue">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>110</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="speedValue">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>130</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="currentHealthValue">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>110</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="dash_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>110</y>
+        <width>16</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="maxHealthValue">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>110</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="character1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>41</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="character2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>41</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="character3">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>41</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="character4">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>70</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>41</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="inventory_tab">
+    <attribute name="title">
+     <string>Inventory</string>
+    </attribute>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Inventory</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="shop_tab">
+    <attribute name="title">
+     <string>Shop</string>
+    </attribute>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>46</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Shop</string>
+     </property>
+    </widget>
+    <widget class="InventoryView" name="inventoryView">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>260</y>
+       <width>451</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="acceptDrops">
+      <bool>false</bool>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::NoDragDrop</enum>
+     </property>
+     <item>
+      <property name="text">
+       <string>Potion</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/images/testpotion.png</normaloff>:/images/testpotion.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sword</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/images/cursorSword_silver.png</normaloff>:/images/cursorSword_silver.png</iconset>
+      </property>
+     </item>
+    </widget>
+    <widget class="ShopItemList" name="shopItemList">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>451</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectItems</enum>
+     </property>
+     <property name="layoutMode">
+      <enum>QListView::Batched</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buyItem">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>200</y>
+       <width>51</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Buy</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="entityFram">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>50</y>
+       <width>191</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="entityPic">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="entityDescription">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>151</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="removeItem">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>300</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Remove</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="battleButton">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>560</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>To Battle!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="playerGC">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Your GC:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="playerGCValue">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>16</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>amount of money here</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>InventoryView</class>
+   <extends>QListWidget</extends>
+   <header>inventoryview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>EntityInfoView</class>
+   <extends>QFrame</extends>
+   <header>entityinfoview.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ShopItemList</class>
+   <extends>QListWidget</extends>
+   <header>shopitemlist.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

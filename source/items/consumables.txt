@@ -1,0 +1,18 @@
+Small Health Potion,potion,5,0,0,0,0,0,0,0
+Medium Health Potion,potion,10,0,0,0,0,0,0,0
+Large Health Potion,potion,15,0,0,0,0,0,0,0
+Potion of Thick Skin,potion,0,0,10,0,0,0,0,0
+Elixir of Fortune,potion,0,0,0,0,10,0,0,0
+Potion of Swiftness,potion,0,0,0,0,0,0,2,0
+Potion of Strength,potion,0,0,0,5,0,0,0,0
+Elixir of Evasion,potion,0,0,0,0,0,0,0,10
+Brew of Eyesight,potion,0,0,0,0,0,2,0,0
+Water of Ancient Gods,potion,100,0,0,0,0,0,0,0
+Tasty Meal,food,5,5,0,0,0,0,0,0
+Chicken Leg,food,5,2,0,0,0,0,0,0
+Dog Food,food,0,0,0,0,0,0,0,0
+Cat Food,food,0,0,0,0,0,0,0,0
+Hamster Food,food,0,0,0,0,0,0,0,1
+Mysterious Meal of Juve,food,0,0,0,0,0,0,0,0
+Refreshing Lettuce,food,10,2,0,0,0,0,0,0
+Fish and Chips,food,5,2,0,0,0,0,0,0
